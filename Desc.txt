@@ -1,0 +1,30 @@
+Shooter 2D PvP
+
+Mags que gestionen el seu manà per a destruir al rival.
+
+N elements per a asignar previo batalla
+Togues, bastons etc donen stats
+
+Control PAD:
+R1 salt
+R2 "lliberar la màgia"
+L1 battle stats popup
+L2 descartar màgia
+X, O, Triangle, quadrat -> magies asignades
+creueta o joystick moure
+joystic dret apuntar
+
+
+
+El jugador decideix elegint magies quina magia vol acabar tirant.
+La màgia que tiren dependrà de l'ordre de creació: pedra + laser farà un mur, laser + pedra dispararà cudols en la direcció
+Al tirar-la, tindrà un cooldown de tir depenent de com de forta es la màgia.
+El manà es replena en el temps i en objectes del mapa.
+
+Modos:
+Arribar a X morts.
+Last man standing (cada personatge té 3 vides)
+Friendly fire.
+
+
+
