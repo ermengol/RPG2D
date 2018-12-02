@@ -10,6 +10,7 @@ public class CharacterAnimationController : MonoBehaviour
     private const string kParamAttackTrigger = "Attack";
     private const string kParamDieTrigger = "Die";
     private const string kParamHurtTrigger = "Hurt";
+    private const string kParamGroundedTrigger = "Grounded";
 
 
     [SerializeField] private Animator _animator;
@@ -47,5 +48,10 @@ public class CharacterAnimationController : MonoBehaviour
     public void CharacterHurt()
     {
         _animator.SetTrigger(kParamHurtTrigger);
+    }
+    
+    public void CharacterGrounded()
+    {
+        _animator.SetTrigger(kParamGroundedTrigger);
     }
 }
